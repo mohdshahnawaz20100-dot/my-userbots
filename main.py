@@ -6,7 +6,7 @@ import random
 import os
 from config import API_ID, API_HASH, SESSION_NAME, OWNER_ID
 
-client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
+from config import API_ID, API_HASH, SESSION_STRING, OWNER_ID, WEATHER_API_KEY, GEMINI_API_KEY
 
 # ============================================
 # 💕 SHAYARI COLLECTION
