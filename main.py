@@ -1,4 +1,5 @@
-# main.py
+print(f"🔍 SESSION_STRING length: {len(SESSION_STRING) if SESSION_STRING else 'NONE'}")
+print(f"🔍 API_ID: {API_ID}")# main.py
 import asyncio
 import random
 import time
