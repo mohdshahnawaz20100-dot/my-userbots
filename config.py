@@ -6,6 +6,7 @@ load_dotenv()
 
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
-SESSION_NAME = "my_userbot"
+SESSION_STRING = os.getenv("SESSION_STRING")   # 🔴 Ye line must hai
 OWNER_ID = int(os.getenv("OWNER_ID", 0))
-BOT_NAME = "My Userbot"
+WEATHER_API_KEY = os.getenv("WEATHER_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
